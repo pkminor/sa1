@@ -1,0 +1,170 @@
+/******************************************************************GENERAL*********************************************************************************/
+
+body {
+    background: white;
+    color: #888;
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.top-bar {
+    background-color: transparent;
+    color: white;
+}
+.top-bar h2 {
+    background-color: transparent;
+    color: white;
+}
+.top-bar-right a {
+    color: white;
+}
+
+h2.line-text-left {
+     width:100%; text-align:left; border-bottom: 1px solid #d3d3d3; line-height:0.1em; margin:50px 0px 20px;
+}
+
+h2.line-text-right {
+     width:100%; text-align:right; border-bottom: 1px solid #d3d3d3; line-height:0.1em; margin:50px 0px 20px;
+}
+
+h2 span {
+    background:#fff; padding:0 10px; text-decoration-color: black; font-size: 20px; font-weight: bold
+}
+
+.item-column {
+   background-color: #f4f4f4
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.space { height: 10px }
+
+.card{border:0px; margin-right: 0px;background-color: #f4f4f4}
+
+.promo{ background-color: #545454; height: 50px; color: white  }
+.footer { background-color: #444444; height: 300px; text-align: center; color:white; margin-bottom: 0px }
+/**********************************************HEADERS*********************************************************************************/
+
+fieldset { }
+
+legend {
+  color:white;
+  font-weight: bold
+  text-align:center;
+  }
+
+/*typing effect*/
+
+@-webkit-keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 16.3em
+    }
+}
+@-moz-keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 16.3em
+    }
+}
+@-webkit-keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: black
+    }
+}
+@-moz-keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: black
+    }
+}
+body {
+    font-family: Consolas, monospace;
+}
+h1 {
+    font-size: 150%;
+    width: 16.3em;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: .1em solid black;
+    -webkit-animation: typing 17s steps(30, end), /* # of steps = # of characters */
+    blink-caret 1s step-end infinite;
+    -moz-animation: typing 17s steps(30, end), /* # of steps = # of characters */
+    blink-caret 1s step-end infinite;
+}
+
+/*end of it */
+
+.about{
+    background-image: url(../assets/backgrounds/about.jpg);
+    text-align: center;
+    height:402px;
+    background-size: auto;
+    color: white;
+}
+
+.header-image {
+    background-image: url(../assets/backgrounds/hero.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+}
+.header-image h4 {
+    margin-top: 14%;
+    font-size: 4em;
+    color: white;
+}
+.header-image h6 {
+    color: white;
+    margin-top: 5%;
+}
+.arrowb img {
+    margin-top: 13%;
+    margin-bottom: 5%;
+}
+
+/*********************************************PRODUCTS********************************************************************************/
+
+.see-products {
+    padding-top: 2%;
+    /*    padding-bottom: 2%;*/
+    background-color: #c4bca4;
+}
+.button-group .prod {
+    float: right;
+    background-color: #641c04;
+    color: white
+}
+
+
+/*********************************************MEN.PRODUCTS********************************************************************************/
+
+.men-products {
+    
+    margin-top: 10%;
+}
+
+/*
+.men-products .column div {
+   height: 70%;
+}*/
+
+.thumbnail {
+    box-shadow: none;
+}
+.dropdown.menu .is-dropdown-submenu-parent.is-down-arrow > a::after {
+    top: 21px;
+}
